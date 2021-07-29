@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.App {
+  display: grid;
+  grid-template-columns: 5% 95%;
+  min-height: 650px;
+}
+
+.App > .first {
+  position: absolute;
+  left: 0%;
+  right: 94.38%;
+  top: 0%;
+  bottom: 0%;
+  background: #ffffff;
+  box-shadow: 0px 0px 5px #e5e9f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.App > .first > .eiccon {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.App > .first > div > img {
+  width: 70%;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+.App > .second {
+  background: #f5f6fa;
+}
+.App > .second > .Upperstyle {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.App > .second > .innerCard {
+  position: absolute;
+  left: 8.47%;
+  right: 60.14%;
+  top: 25%;
+  bottom: 38.77%;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px #e5e9f2;
+  border-radius: 5px;
+  min-height: 380px;
+}
+
+.App > .second > .innerCard > .innerCont {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.App > .second > .innerCard > .innerCont > p,
+span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #31394d;
+}
+
+.App > .second > .innerCard > .profile > div {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.App > .second > .innerCard > .profile > div > .profile {
+  position: absolute;
+  left: 10.56%;
+  right: 80.49%;
+  top: 19.43%;
+  bottom: 76.66%;
+}
+
+.App > .second > .innerCard > .profile > div > .pro {
+  display: flex;
+  font-family: Roboto;
+  width: 100%;
+}
+
+.App > .second > .innerCard > .profile > div > .pro > img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.App > .second > .innerCard > .profile > div > .pro > div > p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.App > .second > .innerCard > .profile > div > .pro > div > span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.App > .second > .innerCard > .profile > div > .line > .LineCont {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
